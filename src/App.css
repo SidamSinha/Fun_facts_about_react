@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background-color: #282D35;
+  color: aliceblue;
+}
+
+h1 {
+  margin-top: 30px;
+}
+
+img {
+  width: 55px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #21222A;
+  height: 130px;
+  padding: 20px;
+}
+
+.image-text {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+span {
+  font-size: 1.8rem;
+  color: #61DAFB;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: aqua;
+}
+
+.nav-list {
+ list-style: none; 
+ display: flex;
+ gap: 1rem;
+ justify-content: space-between;
+ color: aliceblue;
+}
+
+.nav-list-items {
+  font-size: large;
+  font-weight: bold;
+}
+
+.main {
+  padding: 60px 35px;
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://imgs.search.brave.com/Uk85lFJcVlqAb7YXsFBN1z5cWN8I2Xp5nK1NZYkiGb0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMtMDAuaWNvbmR1/Y2suY29tL2Fzc2V0/cy4wMC9yZWFjdC1p/Y29uLTI1NngyMjgt/aHJwNGp2bjgucG5n);
+  background-repeat: no-repeat;
+  background-size: 25%;
+  background-position-x: 95%;
+  overflow: hidden;
+  background-position-y: 70%;
+}
+
+.facts-head {
+  letter-spacing: -2.5px;
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+
+.facts-list {
+  margin-top: 40px;
+  max-width: 400px;
+}
+
+.facts {
+  padding-block: 10px;
+  line-height: 19px;
+}
+
+.facts::marker {
+  color: #61DAFB;
+  font-size: 1.5rem;
+}
+
+footer{
+  background-color: #21222A;
+  padding: 22px;
+  font-size: medium;
+}
+
+footer > small {
+  margin-left: 10px;
+}
